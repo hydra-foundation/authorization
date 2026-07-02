@@ -10,7 +10,7 @@ use Hydra\Auth\Contracts\AuthenticatableInterface;
  * A single authorization rule: may this user do this thing, to this subject?
  *
  * This is the package's one extension point, the authorization twin of
- * hydra/validation's RuleInterface. An ability inspects the current user (and
+ * hydrakit/validation's RuleInterface. An ability inspects the current user (and
  * optionally a subject — the note being edited, the account being viewed) and
  * answers a plain yes/no. The phrasing of *what* the ability is lives in its
  * class name, not a string passed around: an app writes typed ability classes
