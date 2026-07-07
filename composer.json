@@ -27,13 +27,18 @@
     ],
     "require": {
         "php": ">=8.2",
-        "hydrakit/core": "*",
-        "hydrakit/http": "*",
-        "hydrakit/auth": "*"
+        "hydrakit/core": "^0.1",
+        "hydrakit/http": "^0.1",
+        "hydrakit/auth": "^0.1"
     },
     "require-dev": {
         "phpunit/phpunit": "^11.0"
     },
     "minimum-stability": "dev",
-    "prefer-stable": true
+    "prefer-stable": true,
+    "extra": {
+        "branch-alias": {
+            "dev-main": "0.1.x-dev"
+        }
+    }
 }
